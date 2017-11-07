@@ -4,10 +4,11 @@ import java.awt.Font;
 import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
+import java.util.stream.IntStream;
+
 import javax.swing.JEditorPane;
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
 import javax.swing.SwingUtilities;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.Document;
@@ -24,8 +25,10 @@ public class MediaGUI {
 	static MyHighlightPainter myHighlightPainter = new MyHighlightPainter(Color.yellow);
 
 	public static void main(String[] args) {
-		displayText("textFile.txt", "and");
+		//displayText("textFile.txt", "and");
+
 	}
+	
 	
 	//Display the text file in a JEditorPane
 	/**
