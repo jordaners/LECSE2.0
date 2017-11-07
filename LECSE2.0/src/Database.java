@@ -6,10 +6,10 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-
+//Lets break it down
 
 /**
- * @author Sigrid Sandström
+ * @author Sigrid SandstrÃ¶m
  */
 public class Database {
 	//hello
