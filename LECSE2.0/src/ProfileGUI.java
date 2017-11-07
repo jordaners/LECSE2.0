@@ -13,6 +13,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import javax.swing.BorderFactory;
+import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
@@ -240,9 +241,17 @@ public class ProfileGUI {
 		gbc.gridy++;
 		gbc.insets = new Insets(20, 10, 0, 0);
 		p.add(menu, gbc);
+		
+		//Create a button 
+		JButton help = new JButton("HELP");
+		help.setPreferredSize(new Dimension(520,45));
 
-		gbc.gridy = 1;
+		gbc.gridy = 0;
 		gbc.gridx = 1;
+		gbc.insets = new Insets(20, 10, 0, 0);
+		p.add(help, gbc);
+		
+		gbc.gridy++;
 		gbc.insets = new Insets(20, 10, 0, 0);
 		p.add(title4, gbc);
 
