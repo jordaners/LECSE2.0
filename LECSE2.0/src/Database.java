@@ -12,7 +12,6 @@ import java.util.ArrayList;
  * @author Sigrid Sandström
  */
 public class Database {
-	//hello
 	//Attributes for user name and major and university
 	private String userName;
 	private String major;
