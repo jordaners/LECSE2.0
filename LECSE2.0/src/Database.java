@@ -9,7 +9,7 @@ import java.util.ArrayList;
 //Lets break it down
 
 /**
- * @author Sigrid SandstrÃ¶m
+ * @author Sigrid Sandström
  */
 public class Database {
 	//Attributes for user name and major and university
@@ -480,5 +480,3 @@ public class Database {
 
 
 }
-
-

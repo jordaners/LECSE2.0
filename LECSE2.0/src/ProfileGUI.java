@@ -25,7 +25,8 @@ import javax.swing.border.Border;
 public class ProfileGUI {
 
 
-	public static void main(String[] args) throws FileNotFoundException, IOException{
+	public static void main(String[] args) throws FileNotFoundException, IOException
+	{
 		//Load the database
 		Database db = new Database();		
 		db.loadUserInfo();
@@ -38,6 +39,7 @@ public class ProfileGUI {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setLayout(new FlowLayout()); 
 
+		
 		JTextField name = new JTextField(db.getName());
 		name.setEditable(false);
 		name.setPreferredSize(new Dimension(520,45));
@@ -299,7 +301,8 @@ public class ProfileGUI {
 
 
 
+		//AudioConverter AC = new AudioConverter();
+		//AC.getAudioFile();
 
 	}
 }
-
